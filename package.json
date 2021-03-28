@@ -10,19 +10,24 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:vscode-dig.dig"
+		"onCommand:com.abueide.digvscode.install",
+		"onCommand:com.abueide.digvscode.dig"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
 			{
 				"title": "dig",
-				"command": "vscode-dig.dig"
+				"command": "com.abueide.digvscode.dig"
+			},
+			{
+				"title": "install",
+				"command": "com.abueide.digvscode.install"
 			}
 		],
 		"keybindings": [
 			{
-				"command": "vscode-dig.dig",
+				"command": "com.abueide.digvscode.dig",
 				"key": "ctrl+alt+a",
 				"mac": "cmd+alt+a",
 				"when": "editorTextFocus"
