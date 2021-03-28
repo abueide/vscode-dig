@@ -17,11 +17,17 @@ export function activate(context: vscode.ExtensionContext) {
 		// The code you place here will be executed every time your command is executed
 
 		// Display a message box to the user
-		vscode.window.showInformationMessage('Test');
+		if (vscode.window.activeTextEditor !== undefined) {
+			let currentFile: String = vscode.window.activeTextEditor.document.fileName;
+			vscode.window.showInformationMessage('' + currentFile);
+		}
+		else {
+			vscode.window.showErrorMessage('File not selected');
+		}
 	});
 
 	context.subscriptions.push(disposable);
 }
 
 // this method is called when your extension is deactivated
-export function deactivate() {}
+export function deactivate() { }

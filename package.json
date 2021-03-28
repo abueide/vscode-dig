@@ -23,8 +23,8 @@
 		"keybindings": [
 			{
 				"command": "vscode-dig.dig",
-				"key": "ctrl+shift+a",
-				"mac": "cmd+shift+a",
+				"key": "ctrl+alt+a",
+				"mac": "cmd+alt+a",
 				"when": "editorTextFocus"
 			}
 		]
