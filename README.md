@@ -1,10 +1,11 @@
-# vscode-dig README
+# VSCode Dig
 
-VSCode Dig is an extension that allows you to easily run dig's invariant numerical analysis (https://github.com/unsat/dig) on your project's source files.
+VSCode Dig is an extension that allows you to easily run dig's program analysis (https://github.com/unsat/dig) on your project's source files.
 
 ## Features
 
 `ctrl + alt + a`, `dig` command -> runs dig on the currently open source file
+
 `digInstall` command -> pulls the latest dig docker image
 
 ## Requirements
