@@ -5,6 +5,7 @@ VSCode Dig is an extension that allows you to easily run dig's program analysis 
 ## Features
 
 `ctrl + alt + a`, `dig` command -> runs dig on the currently open source file
+
 `digInstall` command -> pulls the latest dig docker image
 
 ## Requirements
