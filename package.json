@@ -1,8 +1,12 @@
 {
 	"name": "digvscode",
 	"displayName": "vscode-dig",
-        "publisher": "com.abueide",
+        "publisher": "abueide",
 	"description": "A tool for generating nonlinear numerical invariants for C and Java programs.",
+        "repository": {
+            "type": "git",
+            "url": "https://github.com/abueide/vscode-dig"
+        },
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.54.0"
