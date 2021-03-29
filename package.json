@@ -10,7 +10,7 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:com.abueide.digvscode.install",
+		"onCommand:com.abueide.digvscode.digInstall",
 		"onCommand:com.abueide.digvscode.dig"
 	],
 	"main": "./dist/extension.js",
@@ -21,8 +21,8 @@
 				"command": "com.abueide.digvscode.dig"
 			},
 			{
-				"title": "install",
-				"command": "com.abueide.digvscode.install"
+				"title": "digInstall",
+				"command": "com.abueide.digvscode.digInstall"
 			}
 		],
 		"keybindings": [
