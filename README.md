@@ -14,6 +14,8 @@ You must have a working docker installation that vscode's shell can access. This
 
 You can find instructions on how to install docker for your platform here: https://docs.docker.com/get-docker/
 
+You can install the plugin from the VSCode Marketplace here: https://marketplace.visualstudio.com/items?itemName=abueide.digvscode
+
 ## Extension Settings
 
 * `myExtension.enable`: enable/disable this extension
@@ -30,3 +32,7 @@ Users appreciate release notes as you update your extension.
 ### 1.0.0
 
 Initial Release
+
+### 1.0.2
+
+Fixes filepath issues when running using powershell on windows
